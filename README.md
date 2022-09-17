@@ -35,4 +35,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 ## Database:
-Postgres, hosted through Heroku using Prisma (npx prisma init)
+Postgres, hosted through Heroku using Prisma
+1. npx prisma init
+2. link database URLs
+3. create schema
+4. npx prisma db push (like git commit) - will tell if migration is needed
+5. npx prisma migrate dev (confirm changes to db, like git push)
