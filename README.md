@@ -41,3 +41,6 @@ Postgres, hosted through Heroku using Prisma
 3. create schema
 4. npx prisma db push (like git commit) - will tell if migration is needed
 5. npx prisma migrate dev (confirm changes to db, like git push)
+6. create seed file
+7. add seed command to package.json + run
+8. view using npx prisma studio
