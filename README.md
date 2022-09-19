@@ -44,3 +44,6 @@ Postgres, hosted through Heroku using Prisma
 6. create seed file
 7. add seed command to package.json + run
 8. view using npx prisma studio
+
+## Authentication
+Each file in /pages/api folder is separate route, with name of file
