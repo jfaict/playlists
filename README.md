@@ -45,5 +45,11 @@ Postgres, hosted through Heroku using Prisma
 7. add seed command to package.json + run
 8. view using npx prisma studio
 
+Data fetching is done in two ways:
+1. client side > typically better when data can change while user is looking at page
+2. server side > typically when data can be fetched before render and will not change after
+In Next.js, anything in the components section will need client side (through hook + api route).
+Anything in pages folder can use server side directly in the component.
+
 ## Authentication
 Each file in /pages/api folder is separate route, with name of file
